@@ -212,13 +212,13 @@ export default function LoginPage() {
                           type="checkbox"
                           name="vehicle2"
                           defaultValue="Car"
-                        />{" "}
-                        I agree to the <a href="#">terms and conditions.</a>
+                        />
+                        I agree to the <a href="/">terms and conditions.</a>
                       </div>
                     </div>
                     <div className="col-xs-12">
                       <div className="comment-btn mar-top-30">
-                        <a href="#" className="btn-blog">
+                        <a href="/" className="btn-blog">
                           Register Now
                         </a>
                       </div>
