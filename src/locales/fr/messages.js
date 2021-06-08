@@ -1,0 +1,1 @@
+/*eslint-disable*/module.exports={messages:{"Chào buổi sáng, {name}":["Chào buổi sáng, ",["name"]],"Nhập Username":"Nhập Username","Tên đăng nhập":"Nom d'utilisateur","{number, plural, one {Có {number} quả táo} other {Có {number} quả táo}}":[["number","plural",{one:["Có ",["number"]," quả táo"],other:["Có ",["number"]," quả táo"]}]],"Đăng nhập":"Connexion"}};

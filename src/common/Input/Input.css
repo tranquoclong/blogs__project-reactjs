@@ -1,0 +1,59 @@
+.form-control {
+  position: relative;
+  margin-bottom: 1.25rem; }
+  .form-control input {
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    display: block;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-size: inherit;
+    line-height: inherit;
+    border: 1px solid;
+    border-radius: 4px;
+    color: inherit;
+    background-color: transparent;
+    border: none;
+    background-color: #edf2f7;
+    outline: none; 
+    border: 1px solid transparent;
+  }
+  .form-control .toggle-password {
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    position: absolute; }
+    .form-control .toggle-password:hover {
+      color: #5a67d8; }
+    .form-control .toggle-password + input {
+      padding-right: 3rem; }
+
+.form-title {
+  box-sizing: border-box;
+  min-width: 0px;
+  font-family: Muli, sans-serif;
+  line-height: 1.33;
+  display: block;
+  color: #2d3748;
+  font-weight: 900;
+  font-size: 1.875rem;
+  margin: 0px 0px 1.5rem;
+  text-decoration: none; }
+  @media screen and (min-width: 640px) {
+    .form-title {
+      font-size: 2.25rem; } }
+
+
+/* Error */
+.form-control__has-error input {
+  border-color: red;
+}
+.form-control__error-text {
+  color: red;
+}

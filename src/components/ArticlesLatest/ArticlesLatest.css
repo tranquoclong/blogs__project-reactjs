@@ -1,0 +1,29 @@
+.latest-news__list {
+    margin-left: -0.5rem;
+    margin-right: -0.5rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+  
+  .latest-news__card {
+    flex-basis: 100%;
+    padding: 0.5rem;
+    -webkit-box-flex: 1;
+    flex-grow: 1; }
+    @media screen and (min-width: 640px) {
+      .latest-news__card {
+        flex-basis: 50%;
+        max-width: 50%; } }
+    @media screen and (min-width: 768px) {
+      .latest-news__card {
+        flex-basis: 33.3333%;
+        min-width: 33.3333%; } }
+  

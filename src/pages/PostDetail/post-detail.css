@@ -1,0 +1,172 @@
+@charset "UTF-8";
+.post-detail__title {
+  font-family: Muli, sans-serif;
+  line-height: 1.33;
+  color: #2d3748;
+  font-weight: 900;
+  margin: 0px 0px 1rem; }
+  @media screen and (min-width: 640px) {
+    .post-detail__title {
+      font-size: 2.25rem; } }
+  @media screen and (min-width: 1024px) {
+    .post-detail__title {
+      font-size: 3rem; } }
+
+.post-detail__info {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .post-detail__info .item {
+    display: inline-block;
+    vertical-align: middle; }
+    .post-detail__info .item a {
+      color: #718096; }
+      .post-detail__info .item a:hover {
+        color: #5a67d8; }
+    .post-detail__info .item.views .icons {
+      top: 0.2rem;
+      font-size: 0;
+      display: inline-block;
+      position: relative; }
+      .post-detail__info .item.views .icons::before {
+        font-size: 1.3rem;
+        display: inline-block; }
+    .post-detail__info .item + .item::before {
+      content: " ・ "; }
+
+.post-detail__wrapper {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.post-detail__content {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  border-radius: 1rem;
+  min-height: 50vh;
+  background-color: #fff;
+  box-shadow: 1px 1px 5px 0 rgba(1, 1, 1, 0.05); }
+  .post-detail__content .thumbnail img {
+    width: 100%;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem; }
+  .post-detail__content .content-padding {
+    padding: 1rem; }
+    @media screen and (min-width: 768px) {
+      .post-detail__content .content-padding {
+        padding: 2rem; } }
+
+.post-detail__tags {
+  border-top: 1px solid #e2e8f0;
+  border-bottom: 1px solid #e2e8f0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: start;
+  align-items: flex-start; }
+  .post-detail__tags h2 {
+    color: #718096;
+    margin-bottom: 0;
+    margin-right: 1rem;
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    font-family: 'Muli',sans-serif; }
+  .post-detail__tags ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    .post-detail__tags ul .item {
+      margin-right: 0.5rem;
+      margin-bottom: 0.5rem; }
+
+.post-detail__comments {
+  margin-top: 2rem; }
+
+.post-detail__side {
+  -webkit-flex-basis: 33.333333%;
+  -ms-flex-preferred-size: 33.333333%;
+  flex-basis: 33.333333%;
+  padding-left: 4rem;
+  display: none; }
+  @media screen and (min-width: 768px) {
+    .post-detail__side {
+      display: block; } }
+
+.rte {
+  font-size: 1rem; }
+  @media screen and (min-width: 640px) {
+    .rte {
+      font-size: 1.2rem; } }
+  .rte p {
+    margin-bottom: 2rem; }
+  .rte h2 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-family: 'Muli',sans-serif;
+    line-height: 1.33;
+    font-weight: bold;
+    display: block;
+    color: #2d3748; }
+  .rte code {
+    position: relative;
+    top: -2px;
+    padding: 0.25rem;
+    font-size: 0.7em;
+    border-radius: 0.3em; }
+  .rte pre {
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem; }
+  .rte pre, .rte code {
+    color: #fff;
+    border-radius: 0.3em;
+    background-color: #272822; }
+  .rte pre[class*="language-"] {
+    padding: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: none;
+    background-color: #272822; }
+    .rte pre[class*="language-"] .token.atrule, .rte pre[class*="language-"] .token.attr-value, .rte pre[class*="language-"] .token.keyword {
+      color: #bd93f9; }
+    .rte pre[class*="language-"] .function {
+      color: #50fa7b; }
+  .rte code[class*="language-"] {
+    padding: 0;
+    box-shadow: none;
+    font-size: 1rem;
+    background-color: transparent; }
+  .rte blockquote {
+    font-style: italic;
+    margin-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-left: 3px solid #a3bffa; }
+    @media screen and (min-width: 640px) {
+      .rte blockquote {
+        padding-left: 2rem;
+        padding-right: 2rem;
+        margin-left: 2rem;
+        margin-right: 2rem; } }
+  .rte hr {
+    margin: 2rem 0;
+    height: 1px;
+    border: 0;
+    box-shadow: none;
+    background-color: #e2e8f0; }
+  .rte .aligncenter {
+    text-align: center; }

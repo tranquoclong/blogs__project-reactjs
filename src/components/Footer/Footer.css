@@ -1,0 +1,111 @@
+.footer {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.footer-logo {
+  width: 60%;
+  padding-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer-title {
+  color: #2d3748;
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 2rem;
+  font-family: 'Muli', sans-serif;
+}
+
+@media screen and (min-width: 768px) {
+  .footer-title {
+    font-size: 1rem;
+  }
+}
+
+.footer-content__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.footer-content__list>li a {
+  color: #718096;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+
+.footer-content__list>li a:hover {
+  color: 5a67d8;
+}
+
+.footer-facebook .fb_iframe_widget {
+  width: 100%;
+  overflow: hidden;
+}
+
+.footer__social {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 15px;
+  padding: 0 9px;
+}
+
+.footer__social li {
+  margin-right: 20px;
+}
+
+.footer__social li:last-child {
+  margin-left: 0;
+}
+
+.footer__social li.facebook a {
+  color: #3b5999;
+}
+
+.footer__social li.instagram a {
+  color: #ff5860;
+}
+
+.footer__social li.instagram a i:before {
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: #ff5860;
+}
+
+.footer__social li.mail a {
+  color: #1da1f2;
+}
+
+.footer__social li.github a {
+  color: #171a1d;
+}
+
+.footer__social a {
+  font-size: 24px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.footer__social a:hover {
+  color: #ff55a5;
+}
+
+@media screen and (min-width: 576px) {
+  .footer .tcl-col-sm-6:nth-child(2) .footer-title {
+    margin-top: 0;
+  }
+
+  .footer .tcl-col-md-4:nth-child(3) .footer-title {
+    margin-top: 0;
+  }
+
+  .footer .tcl-col-lg-4:last-child .footer-title {
+    margin-top: 0;
+  }
+}

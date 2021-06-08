@@ -1,0 +1,150 @@
+html {
+  font-size: 85%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+body {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+  font-weight: normal;
+  line-height: 1.8;
+  -webkit-font-smoothing: antialiased;
+  margin: 0px;
+  text-decoration: none;
+  color: #718096;
+  background-color: #f8f8f8;
+}
+
+.wrapper-content {
+  margin: 0;
+  min-width: 0;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tcl-container {
+  min-width: 0px;
+  width: 100%;
+  max-width: 1140px;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin: 0px auto;
+}
+
+@media screen and (min-width: 640px) {
+  .tcl-container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.tcl-row {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.section {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .section {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.ais-center {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex !important;
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.spacing {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+@media screen and (min-width: 640px) {
+  .spacing {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+}
+
+.spacing+.spacing {
+  padding-top: 0;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.bg-white-blue {
+  background-color: #f0f8f8;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.block-center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 90%;
+  }
+
+  .container {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  html {
+    font-size: 95%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  html {
+    font-size: 100%;
+  }
+}

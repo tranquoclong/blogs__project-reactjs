@@ -1,0 +1,34 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2021-03-10 20:38+0700\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: vi\n"
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Plural-Forms: \n"
+
+#: src/pages/LoginPage/index.js:85
+msgid "Chào buổi sáng, {name}"
+msgstr "Chào buổi sáng, {name}"
+
+#: src/pages/LoginPage/index.js:95
+msgid "Nhập Username"
+msgstr "Nhập Username"
+
+#: src/pages/LoginPage/index.js:95
+msgid "Tên đăng nhập"
+msgstr "Tên đăng nhập"
+
+#: src/pages/LoginPage/index.js:87
+msgid "{number, plural, one {Có {number} quả táo} other {Có {number} quả táo}}"
+msgstr "{number, plural, one {Có {number} quả táo} other {Có {number} quả táo}}"
+
+#: src/pages/LoginPage/index.js:84
+msgid "Đăng nhập"
+msgstr "Đăng nhập"
