@@ -26,8 +26,8 @@ export default function ArticlesList() {
       })}
       {hasMoreItems && (
         <>
-          <div class="col-xs-12">
-            <div class="blog-button text-center">
+          <div className="col-xs-12">
+            <div className="blog-button text-center">
               <Button
                 className="btn-blog"
                 type="primary"

@@ -28,13 +28,13 @@ export default function ArticleItemInfor({
           <img src={avatarStr} alt={authorName} />
         </Link>
       </div>
-      <div class="article-item__info-right">
+      <div className="article-item__info-right">
         <div className="item-meta white">
           <Link to={authorLink} className="author-name white">
             <strong>{authorName}</strong>
           </Link>
         </div>
-        <div class="article-item__datetime">
+        <div className="article-item__datetime">
           <div className="post-date" style={{ paddingRight: "15px" }}>
             {createdDateStr}
           </div>
